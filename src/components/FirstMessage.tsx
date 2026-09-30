@@ -72,12 +72,6 @@ export const FirstMessage: React.FC = () => {
             <p className="font-body text-sm sm:text-base leading-relaxed text-white font-normal whitespace-pre-line drop-shadow-[0_1px_3px_rgba(0,0,0,0.8)]">
               {data.caption}
             </p>
-
-            {data.fromMe && (
-              <p className="mt-5 border-t border-blush/20 pt-4 font-script text-2xl sm:text-3xl text-blush text-glow leading-relaxed drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)]">
-                "{data.fromMe}"
-              </p>
-            )}
           </div>
         </FadeIn>
       </div>
