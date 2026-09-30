@@ -12,15 +12,15 @@ export const Bracelet: React.FC = () => {
   const handlePedestalClick = () => {
     openPhoto({
       src: content.bracelet.image,
-      alt: 'The bracelet charm',
-      title: 'The Bracelet Charm',
+      alt: 'The charm',
+      title: 'The Charm',
       caption: storyCombined,
       badge: 'A Sweet Story 🫶🏻',
     });
   };
 
   return (
-    <Section id="bracelet">
+    <Section id="charm">
       {/* Background Spotlight Glow */}
       <div className="pointer-events-none absolute inset-x-0 top-1/4 mx-auto h-80 w-80 rounded-full bg-[radial-gradient(circle,rgba(251,164,184,0.25)_0%,rgba(240,181,166,0.1)_45%,transparent_70%)] blur-3xl" />
 
@@ -59,8 +59,8 @@ export const Bracelet: React.FC = () => {
         >
           <LazyImage
             name={content.bracelet.image}
-            alt="The bracelet charm"
-            modalTitle="The Bracelet Charm"
+            alt="The charm"
+            modalTitle="The Charm"
             modalCaption={storyCombined}
             modalBadge="A Sweet Story 🫶🏻"
             className="size-full rounded-full object-cover pointer-events-none"

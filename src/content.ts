@@ -103,11 +103,11 @@ Yk hu nathi evo k koi na thi etlo attach thau but aavu vichairu b notu k aa chok
   },
 
   bracelet: {
-    title: "The bracelet",
+    title: "The charm",
     image: "bracelet.jpg",
     story: [
       "Bachaa",
-      'Yaad che aa charm j tuti gelu and badhe feeds felai gyata tyare tu mane hate karti but me j tane beeds gotine upadi aaipata after that the thought in your mind was "Nai yaar etlo b buro nathi aa"',
+      'Yaad che aa charm j tuti gelu and badhe beeds felai gyata tyare tu mane hate karti but me j tane beeds gotine upadi aaipata after that the thought in your mind was "Nai yaar etlo b buro nathi aa"',
       "You know our every phase has a cute story...🫶🏻",
     ],
   },
